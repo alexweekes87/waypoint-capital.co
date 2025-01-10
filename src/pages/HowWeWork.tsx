@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const HowWeWork = () => {
   return (
@@ -23,24 +24,170 @@ const HowWeWork = () => {
 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-display font-semibold mb-6">Identifying Opportunities</h2>
-            <p className="text-lg mb-8">
-              We acquire businesses with strong foundations and significant growth potential, using a rigorous and targeted approach to identify the right opportunities.
-            </p>
-
-            <h3 className="text-2xl font-display font-semibold mb-4">Our Process:</h3>
-            <ul className="list-disc list-inside mb-8 space-y-2">
-              <li>Selective Criteria: Focus on profitable, service-based businesses</li>
-              <li>Three-Pronged Due Diligence: Financial, Operational, and Digital assessment</li>
-              <li>Collaborative Engagement with business owners</li>
-            </ul>
-
-            <div className="bg-navy/5 p-8 rounded-lg mt-12">
-              <h2 className="text-2xl font-display font-semibold mb-4">Our Commitment</h2>
-              <p className="text-lg italic">
-                "We ensure operational excellence by installing experienced leaders with a proven track record of success, while providing the resources and support needed for long-term growth."
+          <div className="max-w-4xl mx-auto space-y-16">
+            <div>
+              <h2 className="text-3xl font-display font-semibold mb-8">Identifying Opportunities</h2>
+              <p className="text-lg mb-6">
+                We acquire businesses with strong foundations and significant growth potential, using a rigorous and targeted approach to identify the right opportunities.
               </p>
+              <div className="grid md:grid-cols-3 gap-6">
+                <Card className="bg-navy/5 border-none">
+                  <CardHeader>
+                    <CardTitle className="text-xl">Selective Criteria</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p>We focus on profitable, service-based businesses with stable cash flows, strong reputations, and clear opportunities for growth.</p>
+                  </CardContent>
+                </Card>
+                <Card className="bg-navy/5 border-none">
+                  <CardHeader>
+                    <CardTitle className="text-xl">Three-Pronged Due Diligence</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="list-disc list-inside space-y-2">
+                      <li>Financial assessment</li>
+                      <li>Operational evaluation</li>
+                      <li>Digital opportunity analysis</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+                <Card className="bg-navy/5 border-none">
+                  <CardHeader>
+                    <CardTitle className="text-xl">Collaborative Engagement</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p>We work closely with business owners to understand their goals and align on shared outcomes for a smooth transition.</p>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+
+            <div>
+              <h2 className="text-3xl font-display font-semibold mb-8">Structuring the Deal</h2>
+              <p className="text-lg mb-6">
+                We use flexible, creative deal structures to meet the needs of business owners while maximising long-term growth for investors.
+              </p>
+              <div className="grid md:grid-cols-3 gap-6">
+                <Card className="bg-navy/5 border-none">
+                  <CardHeader>
+                    <CardTitle className="text-xl">Competitive Valuations</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p>We ensure owners receive a fair valuation by factoring in both current performance and future potential.</p>
+                  </CardContent>
+                </Card>
+                <Card className="bg-navy/5 border-none">
+                  <CardHeader>
+                    <CardTitle className="text-xl">Tailored Financing</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p>Through seller financing, earn-outs, and phased payments, we align incentives and optimise capital allocation.</p>
+                  </CardContent>
+                </Card>
+                <Card className="bg-navy/5 border-none">
+                  <CardHeader>
+                    <CardTitle className="text-xl">Seamless Transition</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p>Our structured approach supports owners' goals, whether they plan to retire, stay involved, or transition gradually.</p>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+
+            <div>
+              <h2 className="text-3xl font-display font-semibold mb-8">Empowering Leadership</h2>
+              <p className="text-lg mb-6">
+                We ensure operational excellence by installing experienced leaders with a proven track record of success.
+              </p>
+              <div className="grid md:grid-cols-3 gap-6">
+                <Card className="bg-navy/5 border-none">
+                  <CardHeader>
+                    <CardTitle className="text-xl">Expert Operators</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p>We hire and empower leaders to manage and elevate business performance.</p>
+                  </CardContent>
+                </Card>
+                <Card className="bg-navy/5 border-none">
+                  <CardHeader>
+                    <CardTitle className="text-xl">Unencumbered Management</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p>These operators are given the autonomy to maintain stability and implement strategic improvements.</p>
+                  </CardContent>
+                </Card>
+                <Card className="bg-navy/5 border-none">
+                  <CardHeader>
+                    <CardTitle className="text-xl">Strategic Support</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p>Our team provides resources, insights, and high-level guidance to ensure long-term operational success.</p>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+
+            <div>
+              <h2 className="text-3xl font-display font-semibold mb-8">Transforming Through Innovation</h2>
+              <p className="text-lg mb-6">
+                We unlock growth by leveraging our proprietary EDISCS framework to implement digital and operational improvements.
+              </p>
+              <div className="grid md:grid-cols-2 gap-6">
+                <Card className="bg-navy/5 border-none">
+                  <CardHeader>
+                    <CardTitle className="text-xl">Engagement & Efficiency</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="list-disc list-inside space-y-2">
+                      <li>Strengthening customer relationships and improving retention</li>
+                      <li>Modernising processes and systems to reduce costs</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+                <Card className="bg-navy/5 border-none">
+                  <CardHeader>
+                    <CardTitle className="text-xl">Data & Innovation</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="list-disc list-inside space-y-2">
+                      <li>Enhancing business intelligence and decision-making</li>
+                      <li>Developing new products or services to expand revenue</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+
+            <div>
+              <h2 className="text-3xl font-display font-semibold mb-8">Realising Value</h2>
+              <p className="text-lg mb-6">
+                We deliver measurable results for all stakeholders through disciplined management and strategic exits.
+              </p>
+              <div className="grid md:grid-cols-2 gap-6">
+                <Card className="bg-navy/5 border-none">
+                  <CardHeader>
+                    <CardTitle className="text-xl">Sustainable Growth</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="list-disc list-inside space-y-2">
+                      <li>Long-term sustainability through operational improvements</li>
+                      <li>Higher EBITDA multiples, typically 4x-6x at exit</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+                <Card className="bg-navy/5 border-none">
+                  <CardHeader>
+                    <CardTitle className="text-xl">Strong Returns</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="list-disc list-inside space-y-2">
+                      <li>Target 25% IRR over 5-8 year horizon</li>
+                      <li>Balanced approach to liquidity and maximised returns</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </div>
             </div>
           </div>
         </div>
