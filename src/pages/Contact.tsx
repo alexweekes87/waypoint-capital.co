@@ -3,7 +3,14 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <div className="min-h-screen pt-20">
-      <section className="py-20 bg-cream">
+      <section className="py-20 bg-cream relative">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
+          style={{ 
+            backgroundImage: 'url("https://images.unsplash.com/photo-1486718448742-163732cd1544?auto=format&fit=crop&w=2000")',
+            backgroundBlendMode: 'overlay' 
+          }}
+        />
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -21,7 +28,14 @@ const Contact = () => {
         </div>
       </section>
 
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white relative">
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-5"
+          style={{ 
+            backgroundImage: 'url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000")',
+            backgroundBlendMode: 'overlay' 
+          }}
+        />
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12">

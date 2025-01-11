@@ -4,8 +4,14 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const HowWeWork = () => {
   return (
     <div className="min-h-screen pt-20">
-      <section className="py-20 bg-cream">
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-cream relative">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
+          style={{ 
+            backgroundImage: 'url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=2000")',
+            backgroundBlendMode: 'overlay' 
+          }}
+        />
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -19,10 +25,16 @@ const HowWeWork = () => {
               Tailored transitions, expert leadership, and strategic innovation; we deliver exceptional outcomes for owners, employees, and investors.
             </p>
           </motion.div>
-        </div>
       </section>
 
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white relative">
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-5"
+          style={{ 
+            backgroundImage: 'url("https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=2000")',
+            backgroundBlendMode: 'overlay' 
+          }}
+        />
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto space-y-16">
             <div>

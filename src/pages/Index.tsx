@@ -5,9 +5,14 @@ import { Card, CardContent } from "@/components/ui/card";
 const Index = () => {
   return (
     <div className="min-h-screen">
-      {/* Hero Section with improved visual hierarchy */}
       <div className="relative min-h-[90vh] flex items-center">
-        <div className="absolute inset-0 gradient-overlay"></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
+          style={{ 
+            backgroundImage: 'url("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=2000")',
+            backgroundBlendMode: 'overlay' 
+          }}
+        />
         <div className="container mx-auto px-4 pt-20">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -45,8 +50,14 @@ const Index = () => {
         </div>
       </div>
 
-      {/* Who We Are Section with improved layout */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-white relative">
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-5"
+          style={{ 
+            backgroundImage: 'url("https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=2000")',
+            backgroundBlendMode: 'overlay' 
+          }}
+        />
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -69,7 +80,6 @@ const Index = () => {
               Our expertise lies not in traditional finance, but in the strategic execution of transformative change. Leveraging insights from decades of product development, digital strategy, and operational improvement, we drive sustainable growth in businesses often overlooked by conventional investors.
             </p>
 
-            {/* Our Promise Section with cards for better visual organization */}
             <div className="bg-gradient-to-b from-navy/5 to-transparent p-8 rounded-2xl">
               <h2 className="text-3xl font-display font-semibold mb-8 text-center">Our Promise to Business Owners</h2>
               <p className="text-lg mb-12 text-center max-w-3xl mx-auto">
@@ -106,8 +116,14 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Contact Section with improved visibility */}
-      <section className="py-12 bg-navy text-white">
+      <section className="py-12 bg-navy text-white relative">
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-5"
+          style={{ 
+            backgroundImage: 'url("https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=2000")',
+            backgroundBlendMode: 'overlay' 
+          }}
+        />
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-center items-center gap-8">
             <motion.a 
