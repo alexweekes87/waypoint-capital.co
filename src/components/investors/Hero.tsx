@@ -22,8 +22,22 @@ const Hero = () => {
             Turning Proven Businesses into Exceptional Investments
           </h1>
           <p className="text-xl md:text-2xl text-navy/80 mb-8">
-            We acquire stable, profitable companies and unlock their full potential through operational excellence and strategic digital transformation.
+            We acquire stable, profitable companies and unlock their full potential through operational excellence and strategic digital transformation. Our unique approach combines traditional business values with modern digital innovation.
           </p>
+          <div className="grid md:grid-cols-3 gap-6 mt-12">
+            <div className="p-6 bg-white/80 rounded-lg shadow-sm">
+              <h3 className="text-2xl font-display font-semibold mb-2">25%+ IRR</h3>
+              <p className="text-navy/70">Target Returns</p>
+            </div>
+            <div className="p-6 bg-white/80 rounded-lg shadow-sm">
+              <h3 className="text-2xl font-display font-semibold mb-2">5-8 Years</h3>
+              <p className="text-navy/70">Investment Horizon</p>
+            </div>
+            <div className="p-6 bg-white/80 rounded-lg shadow-sm">
+              <h3 className="text-2xl font-display font-semibold mb-2">4-6x</h3>
+              <p className="text-navy/70">Target Exit Multiple</p>
+            </div>
+          </div>
         </motion.div>
       </div>
     </section>
