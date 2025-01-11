@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="min-h-screen pt-20">
       <section className="py-20 bg-cream relative">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-[0.15]"
           style={{ 
             backgroundImage: 'url("https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=2000")',
             backgroundBlendMode: 'overlay' 

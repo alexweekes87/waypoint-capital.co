@@ -7,7 +7,7 @@ const HowWeWork = () => {
     <div className="min-h-screen pt-20">
       <section className="py-20 bg-cream relative">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-[0.15]"
           style={{ 
             backgroundImage: 'url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=2000")',
             backgroundBlendMode: 'overlay' 
@@ -27,7 +27,6 @@ const HowWeWork = () => {
             </p>
           </motion.div>
       </section>
-
       <section className="py-20 bg-white relative">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-5"

@@ -8,7 +8,7 @@ const Index = () => {
     <div className="min-h-screen">
       <div className="relative min-h-[90vh] flex items-center">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-5"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-[0.15]"
           style={{ 
             backgroundImage: 'url("https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=2000")',
             backgroundBlendMode: 'overlay' 
@@ -53,7 +53,7 @@ const Index = () => {
 
       <section className="py-24 bg-white relative">
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-5"
+          className="absolute inset-0 bg-cover bg-center opacity-[0.15]"
           style={{ 
             backgroundImage: 'url("https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=2000")',
             backgroundBlendMode: 'overlay' 
