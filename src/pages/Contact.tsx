@@ -7,7 +7,7 @@ const Contact = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
           style={{ 
-            backgroundImage: 'url("https://images.unsplash.com/photo-1486718448742-163732cd1544?auto=format&fit=crop&w=2000")',
+            backgroundImage: 'url("https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=2000")',
             backgroundBlendMode: 'overlay' 
           }}
         />
@@ -32,7 +32,7 @@ const Contact = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-5"
           style={{ 
-            backgroundImage: 'url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000")',
+            backgroundImage: 'url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=2000")',
             backgroundBlendMode: 'overlay' 
           }}
         />
