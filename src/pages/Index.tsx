@@ -9,7 +9,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
           style={{ 
-            backgroundImage: 'url("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=2000")',
+            backgroundImage: 'url("https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=2000")',
             backgroundBlendMode: 'overlay' 
           }}
         />
@@ -20,7 +20,7 @@ const Index = () => {
             transition={{ duration: 0.8 }}
             className="max-w-4xl mx-auto text-center"
           >
-            <h1 className="text-5xl md:text-7xl font-display font-semibold leading-tight mb-8 bg-clip-text text-transparent bg-gradient-to-r from-navy to-navy/80">
+            <h1 className="text-5xl md:text-7xl font-display font-semibold leading-tight mb-12 bg-clip-text text-transparent bg-gradient-to-r from-navy to-navy/80">
               Honouring the Past, Building the Future
             </h1>
             <p className="text-xl md:text-2xl text-navy/80 mb-12 max-w-3xl mx-auto">
@@ -54,7 +54,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-5"
           style={{ 
-            backgroundImage: 'url("https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=2000")',
+            backgroundImage: 'url("https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=2000")',
             backgroundBlendMode: 'overlay' 
           }}
         />
@@ -115,7 +115,6 @@ const Index = () => {
           </motion.div>
         </div>
       </section>
-
       <section className="py-12 bg-navy text-white relative">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-5"

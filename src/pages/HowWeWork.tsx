@@ -8,7 +8,7 @@ const HowWeWork = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
           style={{ 
-            backgroundImage: 'url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=2000")',
+            backgroundImage: 'url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=2000")',
             backgroundBlendMode: 'overlay' 
           }}
         />
@@ -31,7 +31,7 @@ const HowWeWork = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-5"
           style={{ 
-            backgroundImage: 'url("https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=2000")',
+            backgroundImage: 'url("https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=2000")',
             backgroundBlendMode: 'overlay' 
           }}
         />
