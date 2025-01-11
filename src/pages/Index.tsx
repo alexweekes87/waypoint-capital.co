@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Mail, Phone, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -151,6 +152,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

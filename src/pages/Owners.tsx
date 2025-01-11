@@ -1,10 +1,6 @@
 import { motion } from "framer-motion";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import Footer from "@/components/Footer";
 
 const Owners = () => {
   return (
@@ -182,6 +178,7 @@ const Owners = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

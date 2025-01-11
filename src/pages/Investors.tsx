@@ -11,6 +11,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Footer from "@/components/Footer";
 
 const Investors = () => {
   return (
@@ -326,6 +327,7 @@ const Investors = () => {
           </motion.div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

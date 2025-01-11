@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import Footer from "@/components/Footer";
 
 const HowWeWork = () => {
   return (
@@ -204,6 +205,7 @@ const HowWeWork = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
