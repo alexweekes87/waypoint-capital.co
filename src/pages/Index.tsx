@@ -20,7 +20,7 @@ const Index = () => {
             transition={{ duration: 0.8 }}
             className="max-w-4xl mx-auto text-center"
           >
-            <h1 className="text-5xl md:text-7xl font-display font-semibold leading-tight mb-12 bg-clip-text text-transparent bg-gradient-to-r from-navy to-navy/80">
+            <h1 className="text-5xl md:text-7xl font-display font-semibold leading-tight mb-16 bg-clip-text text-transparent bg-gradient-to-r from-navy to-navy/80">
               Honouring the Past, Building the Future
             </h1>
             <p className="text-xl md:text-2xl text-navy/80 mb-12 max-w-3xl mx-auto">
