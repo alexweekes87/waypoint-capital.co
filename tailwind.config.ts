@@ -19,8 +19,8 @@ export default {
     },
     extend: {
       colors: {
-        navy: "#1A1F2C",
-        gold: "#E6B980",
+        navy: "#0b1d2c",
+        blue: "#236192",
         cream: "#FDFCFB",
       },
       fontFamily: {

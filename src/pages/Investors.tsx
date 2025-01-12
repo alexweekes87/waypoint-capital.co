@@ -61,7 +61,7 @@ const Investors = () => {
           >
             <h2 className="text-3xl font-display font-semibold mb-8">Why Invest with Heritage Digital Partners?</h2>
             <p className="text-lg mb-12">
-              At Heritage Digital Partners, we combine the reliability of established businesses with the transformative power of modern strategy. By empowering expert operators and implementing innovative digital solutions, we deliver exceptional value to our investors.
+              At Waypoint Capital, we combine the reliability of established businesses with the transformative power of modern strategy. By empowering expert operators and implementing innovative digital solutions, we deliver exceptional value to our investors.
             </p>
 
             <div className="grid md:grid-cols-3 gap-8">

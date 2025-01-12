@@ -65,7 +65,7 @@ const Contact = () => {
               <div>
                 <h2 className="text-3xl font-display font-semibold mb-6">About Alexander Weekes</h2>
                 <p className="text-lg mb-6">
-                  As the General Partner of Heritage Digital Partners, Alexander Weekes combines years of experience in strategy, digital transformation, and operational leadership with a passion for elevating businesses.
+                  As the General Partner of Waypoint Capital, Alexander Weekes combines years of experience in strategy, digital transformation, and operational leadership with a passion for elevating businesses.
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-navy/80">
                   <li>Led over 30 product development and digital transformation projects</li>

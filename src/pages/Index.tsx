@@ -72,7 +72,7 @@ const Index = () => {
                 Who We Are
               </h2>
               <p className="text-lg md:text-xl text-navy/80 text-center">
-                At Heritage Digital Partners, we specialise in acquiring and modernising successful service-based businesses in traditional industries. With roots in strategy, digital transformation, and execution, we bring a fresh perspective to unlocking growth potential. Our approach respects what makes these businesses successful while preparing them to thrive in a changing world.
+                At Waypoint Capital, we specialise in acquiring and modernising successful service-based businesses in traditional industries. With roots in strategy, digital transformation, and execution, we bring a fresh perspective to unlocking growth potential. Our approach respects what makes these businesses successful while preparing them to thrive in a changing world.
               </p>
             </div>
 

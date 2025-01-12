@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="text-2xl font-display font-semibold text-navy">
-            Heritage Digital Partners
+            Waypoint Capital
           </Link>
           <div className="hidden md:flex space-x-8">
             <Link to="/owners" className="text-navy/80 hover:text-navy transition-colors">
