@@ -42,7 +42,7 @@ const Owners = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-display font-semibold mb-6">Your Business, Our Commitment</h2>
             <p className="text-lg mb-8">
-              At Heritage Digital Partners, we understand the effort, passion, and care it takes to build a successful business. When the time comes to transition, you deserve a partner who values what you've achieved and is committed to carrying your vision forward.
+              At Waypoint Capital, we understand the effort, passion, and care it takes to build a successful business. When the time comes to transition, you deserve a partner who values what you've achieved and is committed to carrying your vision forward.
             </p>
 
             <div className="space-y-12">
