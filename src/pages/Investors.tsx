@@ -59,7 +59,7 @@ const Investors = () => {
             transition={{ duration: 0.6 }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-3xl font-display font-semibold mb-8">Why Invest with Heritage Digital Partners?</h2>
+            <h2 className="text-3xl font-display font-semibold mb-8">Why Invest with Waypoint Capital?</h2>
             <p className="text-lg mb-12">
               At Waypoint Capital, we combine the reliability of established businesses with the transformative power of modern strategy. By empowering expert operators and implementing innovative digital solutions, we deliver exceptional value to our investors.
             </p>
@@ -257,7 +257,7 @@ const Investors = () => {
           >
             <h2 className="text-3xl font-display font-semibold mb-8">A Message to Our Investors</h2>
             <blockquote className="text-lg italic text-navy/80">
-              "At Heritage Digital Partners, we focus on delivering exceptional returns by transforming stable, lower middle market service businesses. With reliable cash flows, strong community roots, and untapped potential, these businesses offer a unique combination of stability and opportunity."
+              "At Waypoint Capital, we focus on delivering exceptional returns by transforming stable, lower middle market service businesses. With reliable cash flows, strong community roots, and untapped potential, these businesses offer a unique combination of stability and opportunity."
             </blockquote>
           </motion.div>
         </div>

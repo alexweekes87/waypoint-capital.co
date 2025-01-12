@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-display font-semibold mb-4">Heritage Digital Partners</h3>
+            <h3 className="text-xl font-display font-semibold mb-4">Waypoint Capital</h3>
             <p className="text-white/80">
               Transforming established businesses with innovative digital and operational strategies.
             </p>
@@ -105,7 +105,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-12 pt-8 border-t border-white/20 text-center text-white/60">
-          <p>&copy; {new Date().getFullYear()} Heritage Digital Partners. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Waypoint Capital. All rights reserved.</p>
         </div>
       </div>
     </footer>
