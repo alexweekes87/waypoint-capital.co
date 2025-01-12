@@ -43,7 +43,7 @@ const Contact = () => {
               <div>
                 <h2 className="text-3xl font-display font-semibold mb-6">Get in Touch</h2>
                 <p className="text-lg mb-8">
-                  We'd love to hear from you. Contact us today to learn more about how Heritage Digital Partners can deliver exceptional results for you.
+                  We'd love to hear from you. Contact us today to learn more about how Waypoint Capital can deliver exceptional results for you.
                 </p>
                 
                 <div className="space-y-4">

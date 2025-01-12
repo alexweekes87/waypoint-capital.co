@@ -78,7 +78,7 @@ const Index = () => {
 
             <div>
               <h2 className="text-4xl md:text-5xl font-display font-semibold text-center mb-6">
-                Why Heritage Digital Partners?
+                Why Waypoint Capital?
               </h2>
               <p className="text-lg md:text-xl text-navy/80 text-center">
                 Our expertise lies not in traditional finance, but in the strategic execution of transformative change. Leveraging insights from decades of product development, digital strategy, and operational improvement, we drive sustainable growth in businesses often overlooked by conventional investors.

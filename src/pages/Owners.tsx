@@ -118,7 +118,7 @@ const Owners = () => {
             <div className="bg-navy/5 p-8 rounded-lg mt-12">
               <h2 className="text-2xl font-display font-semibold mb-4">A Message From Our Team</h2>
               <p className="text-lg italic">
-                "We understand how personal this decision is for you. At Heritage Digital Partners, we're not just here to buy your business; we're here to ensure its next chapter is one of growth, innovation, and continued success. Let us help you transition with confidence, knowing that the legacy you've worked so hard to create is in expert hands."
+                "We understand how personal this decision is for you. At Waypoint Capital, we're not just here to buy your business; we're here to ensure its next chapter is one of growth, innovation, and continued success. Let us help you transition with confidence, knowing that the legacy you've worked so hard to create is in expert hands."
               </p>
             </div>
 
