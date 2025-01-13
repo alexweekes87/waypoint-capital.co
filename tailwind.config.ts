@@ -19,13 +19,9 @@ export default {
     },
     extend: {
       colors: {
-        navy: "#1A1F2C",
-        blue: "#2C3E50",
-        cream: "#222222",
-        accent: "#403E43",
-        text: "#9F9EA1",
-        background: "#1A1F2C",
-        foreground: "#FDFCFB",
+        navy: "#0b1d2c",
+        blue: "#236192",
+        cream: "#FDFCFB",
       },
       fontFamily: {
         display: ["Playfair Display", "serif"],

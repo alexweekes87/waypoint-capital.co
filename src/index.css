@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply bg-cream text-navy font-sans;
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-display;
@@ -14,6 +14,6 @@
 }
 
 .gradient-overlay {
-  background: linear-gradient(to right, #1A1F2C 0%, #2C3E50 100%);
-  opacity: 0.2;
+  background: linear-gradient(to right, #0b1d2c 0%, #236192 100%);
+  opacity: 0.1;
 }
