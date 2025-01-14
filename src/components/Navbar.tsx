@@ -9,7 +9,7 @@ const Navbar = () => {
             <img 
               src="/lovable-uploads/5064ef83-bfad-43b5-9ffc-b62be0b670e2.png" 
               alt="Waypoint Capital" 
-              className="h-20 w-auto" // Changed from h-16 to h-20 for larger size
+              className="h-18 w-auto" // Changed from h-20 to h-18 for custom size
             />
           </Link>
           <div className="hidden md:flex space-x-8">

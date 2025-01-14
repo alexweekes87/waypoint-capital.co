@@ -18,6 +18,9 @@ export default {
       },
     },
     extend: {
+      height: {
+        '18': '72px',
+      },
       colors: {
         navy: "#0b1d2c",
         blue: "#236192",
