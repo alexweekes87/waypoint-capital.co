@@ -19,14 +19,14 @@ const Index = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-4xl mx-auto text-center"
+            className="max-w-3xl mx-auto text-center"
           >
-            <h1 className="text-5xl md:text-7xl font-display font-semibold leading-tight mb-16 bg-clip-text text-transparent bg-gradient-to-r from-navy to-navy/80">
+            <h1 className="text-5xl md:text-7xl font-display font-semibold leading-tight mb-8 bg-clip-text text-transparent bg-gradient-to-r from-navy to-navy/80">
               Honouring the Past
-              <span className="block mt-4 mb-4">—</span>
+              <span className="block mt-2 mb-2">—</span>
               Building the Future
             </h1>
-            <p className="text-xl md:text-2xl text-navy/80 mb-12 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-navy/80 mb-8 max-w-2xl mx-auto">
               Augmenting value in established business, through acquisition and digital transformation
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -154,6 +154,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+      
       <Footer />
     </div>
   );
