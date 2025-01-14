@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-display font-semibold mb-4">Waypoint Capital</h3>
             <p className="text-white/80">
-              Transforming established businesses with innovative digital and operational strategies.
+              Acquiring established businesses, augmenting their value through digital transformation
             </p>
           </div>
           
