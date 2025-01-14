@@ -39,7 +39,7 @@ const Contact = () => {
         />
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-12">
+            <div className="space-y-12">
               <div>
                 <h2 className="text-3xl font-display font-semibold mb-6">Get in Touch</h2>
                 <p className="text-lg mb-8">
@@ -64,15 +64,20 @@ const Contact = () => {
 
               <div>
                 <h2 className="text-3xl font-display font-semibold mb-6">About Alexander Weekes</h2>
-                <p className="text-lg mb-6">
-                  As the General Partner of Waypoint Capital, Alexander Weekes combines years of experience in strategy, digital transformation, and operational leadership with a passion for elevating businesses.
-                </p>
-                <ul className="list-disc list-inside space-y-2 text-navy/80">
-                  <li>Led over 30 product development and digital transformation projects</li>
-                  <li>Author of the "Strategic Projects Mastery Playbook"</li>
-                  <li>MBA from UCL, focusing on business strategy and M&A</li>
-                  <li>Extensive experience training and mentoring product teams</li>
-                </ul>
+                <div className="space-y-4 text-lg text-navy/80">
+                  <p>
+                    As the general partner of Waypoint Capital, Alexander Weekes combines years of operational experience in leadership and execution with a classical business education and a passion for elevating businesses.
+                  </p>
+                  <p>
+                    Alex's professional journey is nothing short of extraordinary. With a career that spans North America, Europe, and Asia, he has been an integral part of ground-breaking projects, working with a spectrum of clients from solo entrepreneurs to large multinational corporations. His success is rooted in his uniquely defined processes and frameworks, which he enthusiastically shares with others.
+                  </p>
+                  <p>
+                    Beyond his project-based achievements, Alex's expertise extends into academia and professional training. He has enriched minds as a university associate lecturer in Bristol, specialising in enterprise and entrepreneurship. His wealth of knowledge has also been imparted to professionals through his role as a CPD trainer for esteemed organisations such as Harvey Nichols, Sky Group, and various local government bodies in the UK.
+                  </p>
+                  <p>
+                    Alex's approach to excellence is a blend of his extensive education — including an MBA from UCL — and his rich, real-world experience across five continents and diverse industries. This unique amalgamation of formal education and practical experience gives him a distinctive perspective in delivering excellence and enhancing project value, making him a sought-after authority in his field.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
