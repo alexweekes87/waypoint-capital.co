@@ -27,7 +27,7 @@ const Index = () => {
               Building the Future
             </h1>
             <p className="text-xl md:text-2xl text-navy/80 mb-12 max-w-3xl mx-auto">
-              We transform established businesses with innovative digital and operational strategies, preserving their heritage while unlocking their full potential.
+              Augmenting value in established business, through acquisition and digital transformation
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <motion.a
