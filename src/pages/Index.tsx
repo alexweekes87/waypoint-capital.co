@@ -21,12 +21,12 @@ const Index = () => {
             transition={{ duration: 0.8 }}
             className="max-w-3xl mx-auto text-center"
           >
-            <h1 className="text-5xl md:text-7xl font-display font-semibold leading-tight mb-8 bg-clip-text text-transparent bg-gradient-to-r from-navy to-navy/80">
+            <h1 className="text-5xl md:text-7xl font-display font-semibold leading-tight mb-4 bg-clip-text text-transparent bg-gradient-to-r from-navy to-navy/80">
               Honouring the Past
-              <span className="block my-4">—</span>
+              <span className="block my-2">—</span>
               Building the Future
             </h1>
-            <p className="text-xl md:text-2xl text-navy/80 mb-12 max-w-2xl mx-auto">
+            <p className="text-xl md:text-2xl text-navy/80 mb-8 max-w-2xl mx-auto">
               Augmenting value in established business, through acquisition and digital transformation
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -53,7 +53,7 @@ const Index = () => {
         </div>
       </div>
 
-      <section className="py-32 bg-white relative">
+      <section className="py-20 bg-white relative">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-[0.15]"
           style={{ 
@@ -67,10 +67,10 @@ const Index = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="max-w-4xl mx-auto space-y-20"
+            className="max-w-4xl mx-auto space-y-16"
           >
             <div>
-              <h2 className="text-4xl md:text-5xl font-display font-semibold text-center mb-8">
+              <h2 className="text-4xl md:text-5xl font-display font-semibold text-center mb-6">
                 Who We Are
               </h2>
               <p className="text-lg md:text-xl text-navy/80 text-center">
@@ -79,7 +79,7 @@ const Index = () => {
             </div>
 
             <div>
-              <h2 className="text-4xl md:text-5xl font-display font-semibold text-center mb-8">
+              <h2 className="text-4xl md:text-5xl font-display font-semibold text-center mb-6">
                 Why Waypoint Capital?
               </h2>
               <p className="text-lg md:text-xl text-navy/80 text-center">
@@ -88,11 +88,10 @@ const Index = () => {
             </div>
 
             <div>
-              <h2 className="text-3xl font-display font-semibold text-center mb-8">Our Promise to Business Owners</h2>
-              <div className="bg-gradient-to-b from-navy/5 to-transparent p-12 rounded-2xl">
-                <p className="text-lg mb-12 text-center max-w-3xl mx-auto">
-                  We promise to honour your vision while building a future that endures and rewards the years of hard work you've invested.
-                </p>
+              <h2 className="text-3xl font-display font-semibold text-center mb-6">Our Promise to Business Owners</h2>
+              <p className="text-lg mb-8 text-center max-w-3xl mx-auto">
+                We promise to honour your vision while building a future that endures and rewards the years of hard work you've invested.
+              </p>
                 <div className="grid md:grid-cols-2 gap-8">
                   <Card className="bg-white/50 backdrop-blur-sm hover:shadow-lg transition-all">
                     <CardContent className="p-8">
@@ -119,7 +118,6 @@ const Index = () => {
                     </CardContent>
                   </Card>
                 </div>
-              </div>
             </div>
           </motion.div>
         </div>

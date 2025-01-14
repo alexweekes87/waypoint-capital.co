@@ -17,7 +17,7 @@ const Investors = () => {
   return (
     <div className="min-h-screen bg-cream">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 relative overflow-hidden">
+      <section className="pt-32 pb-16 relative overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-[0.15]"
           style={{ 
@@ -44,7 +44,7 @@ const Investors = () => {
       </section>
 
       {/* Why Invest Section */}
-      <section className="py-20 bg-white">
+      <section className="py-16 bg-white">
         <div 
           className="absolute right-0 top-0 w-1/3 h-full opacity-10 bg-cover bg-center hidden lg:block"
           style={{ 
@@ -96,7 +96,7 @@ const Investors = () => {
       </section>
 
       {/* Investment Approach Section */}
-      <section className="py-20 bg-navy text-white relative overflow-hidden">
+      <section className="py-16 bg-navy text-white relative overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-5"
           style={{ 
@@ -132,7 +132,7 @@ const Investors = () => {
       </section>
 
       {/* Target Returns Section */}
-      <section className="py-20 bg-cream relative">
+      <section className="py-16 bg-cream relative">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-5"
           style={{ 
@@ -182,7 +182,7 @@ const Investors = () => {
       </section>
 
       {/* What Sets Us Apart Section */}
-      <section className="py-20 bg-white">
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0 }}
@@ -246,7 +246,7 @@ const Investors = () => {
       </section>
 
       {/* Message Section */}
-      <section className="py-20 bg-cream">
+      <section className="py-16 bg-cream">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0 }}
@@ -264,7 +264,7 @@ const Investors = () => {
       </section>
 
       {/* FAQs Section */}
-      <section className="py-20 bg-white">
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0 }}
@@ -327,6 +327,7 @@ const Investors = () => {
           </motion.div>
         </div>
       </section>
+      
       <Footer />
     </div>
   );
