@@ -48,7 +48,7 @@ const Contact = () => {
                   We'd love to hear from you. Contact us today to learn more about how Waypoint Capital can deliver exceptional results for you.
                 </p>
                 
-                <div className="space-y-4">
+                <div className="flex flex-col sm:flex-row gap-4">
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Email</h3>
                     <Button 
