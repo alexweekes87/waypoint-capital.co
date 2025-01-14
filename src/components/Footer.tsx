@@ -1,4 +1,4 @@
-import { Mail, Phone, Github, Linkedin } from "lucide-react";
+import { Mail, Phone, Linkedin } from "lucide-react";
 import { motion } from "framer-motion";
 
 const Footer = () => {
@@ -38,16 +38,6 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-display font-semibold mb-4">Follow Us</h3>
             <div className="space-y-2">
-              <motion.a 
-                whileHover={{ scale: 1.02 }}
-                href="https://github.com/heritage-digital-partners" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 hover:text-gold transition-colors"
-              >
-                <Github className="w-5 h-5" />
-                <span>GitHub</span>
-              </motion.a>
               <motion.a 
                 whileHover={{ scale: 1.02 }}
                 href="https://linkedin.com/company/heritage-digital-partners" 
