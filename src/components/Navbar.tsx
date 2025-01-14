@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
             <img 
-              src="logo-dark.png" 
+              src="/logo-dark.png" 
               alt="Waypoint Capital" 
               className="h-12 w-auto"
             />
