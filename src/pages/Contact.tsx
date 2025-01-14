@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import Footer from "@/components/Footer";
+import { Button } from "@/components/ui/button";
+import { Mail, Phone } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -49,15 +51,25 @@ const Contact = () => {
                 <div className="space-y-4">
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Email</h3>
-                    <a href="mailto:alex.weekes@weekesglobalconsulting.com" className="text-navy hover:text-navy/80 transition-colors">
-                      alex.weekes@weekesglobalconsulting.com
-                    </a>
+                    <Button 
+                      variant="outline"
+                      className="w-full sm:w-auto"
+                      onClick={() => window.location.href = 'mailto:alex.weekes@weekesglobalconsulting.com'}
+                    >
+                      <Mail className="mr-2" />
+                      Send Email
+                    </Button>
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Phone</h3>
-                    <a href="tel:+447886415352" className="text-navy hover:text-navy/80 transition-colors">
-                      +44 7886 415352
-                    </a>
+                    <Button 
+                      variant="outline"
+                      className="w-full sm:w-auto"
+                      onClick={() => window.location.href = 'tel:+447886415352'}
+                    >
+                      <Phone className="mr-2" />
+                      Call Us
+                    </Button>
                   </div>
                 </div>
               </div>
