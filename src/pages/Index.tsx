@@ -83,7 +83,7 @@ const Index = () => {
                 Why Waypoint Capital?
               </h2>
               <p className="text-lg md:text-xl text-navy/80 text-center">
-                Our expertise lies not in traditional finance, but in the strategic execution of transformative change. Leveraging insights from decades of product development, digital strategy, and operational improvement, we drive sustainable growth in businesses often overlooked by conventional investors.
+                Our expertise lies not in traditional finance, but in the execution of digital strategy. Combining insights from decades of product development and operational improvement with best in class business techniques, we create additional value in businesses often overlooked by conventional investors to create outsized returns for all stakeholders.
               </p>
             </div>
 
