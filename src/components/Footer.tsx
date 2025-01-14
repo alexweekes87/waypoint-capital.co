@@ -30,7 +30,7 @@ const Footer = () => {
                 className="flex items-center gap-3 hover:text-gold transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                <span>+44 7886 415352</span>
+                <span>Call Us</span>
               </motion.a>
             </div>
           </div>

@@ -125,36 +125,6 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-12 bg-navy text-white relative">
-        <div 
-          className="absolute inset-0 bg-cover bg-center opacity-5"
-          style={{ 
-            backgroundImage: 'url("https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=2000")',
-            backgroundBlendMode: 'overlay' 
-          }}
-        />
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-center items-center gap-8">
-            <motion.a 
-              whileHover={{ scale: 1.02 }}
-              href="mailto:alex.weekes@weekesglobalconsulting.com" 
-              className="flex items-center gap-3 hover:text-gold transition-colors bg-white/10 px-6 py-3 rounded-lg"
-            >
-              <Mail className="w-5 h-5" />
-              alex.weekes@weekesglobalconsulting.com
-            </motion.a>
-            <motion.a 
-              whileHover={{ scale: 1.02 }}
-              href="tel:+447886415352" 
-              className="flex items-center gap-3 hover:text-gold transition-colors bg-white/10 px-6 py-3 rounded-lg"
-            >
-              <Phone className="w-5 h-5" />
-              +44 7886 415352
-            </motion.a>
-          </div>
-        </div>
-      </section>
-      
       <Footer />
     </div>
   );
