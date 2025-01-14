@@ -5,7 +5,7 @@ import { Mail, Phone } from "lucide-react";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen pt-32">
       <section className="py-20 bg-cream relative">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-[0.15]"
@@ -21,17 +21,17 @@ const Contact = () => {
             transition={{ duration: 0.8 }}
             className="max-w-4xl mx-auto text-center"
           >
-            <h1 className="text-5xl md:text-6xl font-display font-semibold leading-tight mb-6">
+            <h1 className="text-5xl md:text-6xl font-display font-semibold leading-tight mb-8">
               Let's Start the Conversation
             </h1>
-            <p className="text-xl md:text-2xl text-navy/80 mb-8">
+            <p className="text-xl md:text-2xl text-navy/80 mb-12">
               Whether you're exploring a business transition or looking for a strategic investment opportunity, we're here to help.
             </p>
           </motion.div>
         </div>
       </section>
 
-      <section className="py-20 bg-white relative">
+      <section className="py-32 bg-white relative">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-5"
           style={{ 
@@ -41,16 +41,16 @@ const Contact = () => {
         />
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="space-y-12">
+            <div className="space-y-20">
               <div>
-                <h2 className="text-3xl font-display font-semibold mb-6">Get in Touch</h2>
-                <p className="text-lg mb-8">
+                <h2 className="text-3xl font-display font-semibold mb-8">Get in Touch</h2>
+                <p className="text-lg mb-12">
                   We'd love to hear from you. Contact us today to learn more about how Waypoint Capital can deliver exceptional results for you.
                 </p>
                 
-                <div className="flex flex-col sm:flex-row gap-4">
+                <div className="flex flex-col sm:flex-row gap-6">
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">Email</h3>
+                    <h3 className="text-xl font-semibold mb-4">Email</h3>
                     <Button 
                       variant="outline"
                       className="w-full sm:w-auto"
@@ -61,7 +61,7 @@ const Contact = () => {
                     </Button>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">Phone</h3>
+                    <h3 className="text-xl font-semibold mb-4">Phone</h3>
                     <Button 
                       variant="outline"
                       className="w-full sm:w-auto"
@@ -74,10 +74,10 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col md:flex-row gap-8 items-start">
+              <div className="flex flex-col md:flex-row gap-12 items-start">
                 <div className="md:w-2/3">
-                  <h2 className="text-3xl font-display font-semibold mb-6">About Alexander Weekes</h2>
-                  <div className="space-y-4 text-lg text-navy/80">
+                  <h2 className="text-3xl font-display font-semibold mb-8">About Alexander Weekes</h2>
+                  <div className="space-y-6 text-lg text-navy/80">
                     <p>
                       As the general partner of Waypoint Capital, Alexander Weekes combines years of operational experience in leadership and execution with a classical business education and a passion for elevating businesses.
                     </p>
