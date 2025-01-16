@@ -297,7 +297,7 @@ const Investors = () => {
               </AccordionItem>
 
               <AccordionItem value="item-4">
-                <AccordionTrigger>What makes Heritage Digital Partners different from other investment firms?</AccordionTrigger>
+                <AccordionTrigger>What makes Waypoint Capital different from other investment firms?</AccordionTrigger>
                 <AccordionContent>
                   Our expertise lies in operational execution and digital transformation, allowing us to unlock value often overlooked by traditional firms.
                 </AccordionContent>
