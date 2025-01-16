@@ -18,14 +18,16 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/owners" element={<Owners />} />
-          <Route path="/investors" element={<Investors />} />
-          <Route path="/how-we-work" element={<HowWeWork />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <div className="h-screen snap-y snap-mandatory overflow-y-auto">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/owners" element={<Owners />} />
+            <Route path="/investors" element={<Investors />} />
+            <Route path="/how-we-work" element={<HowWeWork />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
