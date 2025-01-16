@@ -17,14 +17,3 @@
   background: linear-gradient(to right, #0b1d2c 0%, #236192 100%);
   opacity: 0.1;
 }
-
-/* Add snap scroll styles */
-section {
-  @apply snap-start min-h-screen;
-}
-
-/* Prevent scroll chaining */
-.snap-container {
-  overscroll-behavior-y: contain;
-  scroll-snap-type: y mandatory;
-}

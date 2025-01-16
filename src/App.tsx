@@ -18,7 +18,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <div className="h-screen snap-y snap-mandatory overflow-y-auto">
+        <div className="h-screen overflow-y-auto">
           <Navbar />
           <Routes>
             <Route path="/" element={<Index />} />
