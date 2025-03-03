@@ -1,7 +1,9 @@
+
 import { motion } from "framer-motion";
 import { Mail, Phone, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import Footer from "@/components/Footer";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -30,24 +32,32 @@ const Index = () => {
               Augmenting value in established business, through acquisition and digital transformation
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <motion.a
+              <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                href="/owners"
-                className="group inline-flex items-center justify-center px-8 py-4 bg-navy text-white rounded-lg hover:bg-navy/90 transition-all shadow-lg hover:shadow-xl"
+                className="group"
               >
-                For Business Owners
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </motion.a>
-              <motion.a
+                <Link 
+                  to="/owners"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-navy text-white rounded-lg hover:bg-navy/90 transition-all shadow-lg hover:shadow-xl w-full"
+                >
+                  For Business Owners
+                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Link>
+              </motion.div>
+              <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                href="/investors"
-                className="group inline-flex items-center justify-center px-8 py-4 border-2 border-navy text-navy rounded-lg hover:bg-navy/5 transition-all"
+                className="group"
               >
-                For Investors
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </motion.a>
+                <Link
+                  to="/investors"
+                  className="inline-flex items-center justify-center px-8 py-4 border-2 border-navy text-navy rounded-lg hover:bg-navy/5 transition-all w-full"
+                >
+                  For Investors
+                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Link>
+              </motion.div>
             </div>
           </motion.div>
         </div>
